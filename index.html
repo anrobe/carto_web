@@ -4,10 +4,54 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>CartoWeb</title>
+    <style>
+        /* Estilos generales para el cuerpo de la página */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define la tipografía principal del sitio */
+            line-height: 1.6; /* Establece el espaciado entre líneas para mejorar legibilidad */
+            color: #333; /* Define el color de texto principal */
+            margin: 0; /* Elimina márgenes externos por defecto */
+            padding: 0; /* Elimina rellenos internos por defecto */
+            background-color: #f9f9f9; /* Establece un fondo claro para toda la página */
+        }
+
+        /* Contenedor principal que limita el ancho máximo y centra el contenido */
+        .container {
+            max-width: 1200px; /* Limita el ancho máximo para pantallas grandes */
+            margin: 0 auto; /* Centra el contenedor horizontalmente */
+            padding: 0 20px; /* Añade espacio a los lados para evitar que el contenido toque los bordes */
+        }
+
+        /* Estilos para el encabezado del sitio con degradado sutil */
+        header {
+            background: linear-gradient(to right, #2c5e86, #3d7eaa); /* Crea un degradado horizontal para el fondo */
+            color: white; /* Establece el color de texto en blanco para contraste */
+            padding: 2rem 0; /* Añade espacio vertical al encabezado */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Agrega sombra suave para efecto de elevación */
+        }
+
+        /* Estilo para el título principal dentro del encabezado */
+        header h1 {
+            margin: 0; /* Elimina márgenes por defecto */
+            font-size: 2.5rem; /* Establece un tamaño grande para el título principal */
+        }
+
+        /* Estilo para la descripción breve dentro del encabezado */
+        header p {
+            margin: 0.5rem 0 0; /* Ajusta el margen, eliminando el inferior */
+            font-size: 1.1rem; /* Aumenta ligeramente el tamaño del texto */
+            opacity: 0.9; /* Añade transparencia sutil para jerarquía visual */
+            text-align: justify; /* Justifica el texto del párrafo */
+        }
+    </style>
 </head>
 <body>
 	<header>
 		<!-- Contenido del encabezado -->
+        <div class="container">
+            <h1>Cartograf&iacute;a</h1>
+            <p>Arte de trazar mapas geogr&aacute;ficos.</p>
+        </div>
 	<header>
 	
 	<nav>
